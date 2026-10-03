@@ -42,7 +42,7 @@ class MicrogridEnv:
     @property
     def observation_space(self):
         return self._Box(self.observation_space_shape)
-
+ 
     @property
     def action_space(self):
         return self._Discrete(self.n_actions)
